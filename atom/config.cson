@@ -1,0 +1,30 @@
+"*":
+  core:
+    customFileTypes:
+      "source.js.jsx": [
+        "js"
+      ]
+    disabledPackages: [
+      "language-javascript"
+      "github"
+    ]
+    packagesWithKeymapsDisabled: [
+      "emmet"
+    ]
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "github-atom-light-syntax"
+    ]
+    titleBar: "custom"
+  editor:
+    fontFamily: "SF Mono"
+    fontSize: 14
+    lineHeight: 1.6
+    preferredLineLength: 100
+    showIndentGuide: true
+  hyperclick:
+    darwinTriggerKeys: "altKey"
+  welcome:
+    showOnStartup: false
