@@ -1,4 +1,6 @@
 "*":
+  "base16-syntax":
+    scheme: "Eighties"
   core:
     customFileTypes:
       "source.js.jsx": [
@@ -14,8 +16,8 @@
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "limited"
     themes: [
-      "one-light-ui"
-      "github-atom-light-syntax"
+      "one-dark-ui"
+      "base16-syntax"
     ]
     titleBar: "custom"
   editor:
