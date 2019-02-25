@@ -7,10 +7,6 @@ Personal checklist for setting up a new Mac's dev environment
   xcode-select --install
   ```
 - Install [Homebrew](https://brew.sh)
-- Add third-party repositories to Homebrew
-  ```sh
-  brew tap homebrew/cask-drivers
-  ```
 - Install [Zsh](http://www.zsh.org)
   ```sh
   brew install zsh zsh-completions
@@ -68,7 +64,7 @@ Personal checklist for setting up a new Mac's dev environment
 - General
   - Install via Homebrew
     ```sh
-    brew cask install razer-synapse
+    brew cask install iterm2
     ```
   - Install [Magnet](https://itunes.apple.com/ua/app/magnet/id441258766)
 - Browsers
