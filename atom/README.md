@@ -19,7 +19,7 @@ Personal checklist for setting up Atom
 - [linter-ui-default](https://atom.io/packages/linter-ui-default)
 
 ## Themes
-- [base16-syntax](https://atom.io/themes/base16-syntax)
+- [oceanic-next](https://atom.io/themes/oceanic-next)
 - [one-dark-ui](https://atom.io/themes/one-dark-ui)
 
 ## Configs

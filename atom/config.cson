@@ -1,6 +1,4 @@
 "*":
-  "base16-syntax":
-    scheme: "Eighties"
   core:
     customFileTypes:
       "source.js.jsx": [
@@ -17,7 +15,7 @@
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
-      "base16-syntax"
+      "oceanic-next"
     ]
     titleBar: "custom"
   editor:
