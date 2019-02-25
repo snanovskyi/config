@@ -47,7 +47,9 @@ Personal checklist for setting up a new Mac's dev environment
   defaults write com.apple.dock tilesize -int 36;
   defaults write com.apple.dock show-recents -bool false;
   defaults write com.apple.dock mru-spaces -bool false;
-  killall Dock
+  killall Dock;
+  defaults write com.apple.finder CreateDesktop -bool false;
+  killall Finder
   ```
 
 ## Packages
