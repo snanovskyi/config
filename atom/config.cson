@@ -1,5 +1,6 @@
 "*":
   core:
+    # https://github.com/gandm/language-babel/issues/510
     customFileTypes:
       "source.js.jsx": [
         "js"
@@ -14,8 +15,8 @@
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
-      "oceanic-next"
+      "one-light-ui"
+      "github-atom-light-syntax"
     ]
     titleBar: "custom"
   editor:
@@ -24,7 +25,5 @@
     lineHeight: 1.6
     preferredLineLength: 100
     showIndentGuide: true
-  hyperclick:
-    darwinTriggerKeys: "altKey"
   welcome:
     showOnStartup: false
