@@ -18,8 +18,8 @@ Personal checklist for setting up Atom
 - [linter-ui-default](https://atom.io/packages/linter-ui-default)
 
 ## Themes
-- [github-atom-light-syntax](https://atom.io/themes/github-atom-light-syntax)
-- [one-light-ui](https://atom.io/themes/one-light-ui)
+- [oceanic-next](https://atom.io/themes/oceanic-next)
+- [one-dark-ui](https://atom.io/themes/one-dark-ui)
 
 ## Configs
 - [Config](https://github.com/sun1x/config/blob/master/atom/config.cson)

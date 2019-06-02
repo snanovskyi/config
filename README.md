@@ -32,25 +32,6 @@ Personal checklist for setting up a new Mac's dev environment
   ```sh
   open /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/*
   ```
-- Fix `.ssh` permissions, if keys are copied from another machine
-  ```sh
-  sudo -v;
-  chmod 600 ~/.ssh/id_rsa;
-  chmod 600 ~/.ssh/id_rsa.pub;
-  chmod 644 ~/.ssh/known_hosts;
-  chmod 755 ~/.ssh
-  ```
-- Create `~/.ssh/config` and add the following lines to automatically load keys into the `ssh-agent` and store passphrase in Keychain
-  ```sh
-  Host *
-    AddKeysToAgent yes
-    UseKeychain yes
-    IdentityFile ~/.ssh/id_rsa
-  ```
-- Add key to `ssh-agent` and store passphrase in Keychain
-  ```sh
-  ssh-add -K ~/.ssh/id_rsa
-  ```
 
 ## Applications
 - Install [Magnet](https://itunes.apple.com/ua/app/magnet/id441258766)
@@ -62,7 +43,16 @@ Personal checklist for setting up a new Mac's dev environment
   ```sh
   brew cask install telegram skype discord
   ```
-- Install [Adobe XD CC](https://www.adobe.com/ua/products/xd.html)
+- Install [Adobe XD CC](https://www.adobe.com/ua/products/xd.html) and other products via Creative Cloud
+
+## iTerm
+- Install [iTerm](https://www.iterm2.com)
+  ```sh
+  brew cask install iterm
+  ```
+- Use [oceanic-next-iterm](https://github.com/mhartington/oceanic-next-iterm)
+- Enable Hotkey Window and only restore Hotkey Window on startup
+- Add iTerm to login items
 
 ## Atom
 - Install [Atom](https://atom.io)

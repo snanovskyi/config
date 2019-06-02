@@ -15,8 +15,8 @@
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "limited"
     themes: [
-      "one-light-ui"
-      "github-atom-light-syntax"
+      "one-dark-ui"
+      "oceanic-next"
     ]
     titleBar: "custom"
   editor:
@@ -25,5 +25,7 @@
     lineHeight: 1.6
     preferredLineLength: 100
     showIndentGuide: true
+  hyperclick:
+    darwinTriggerKeys: "altKey"
   welcome:
     showOnStartup: false
