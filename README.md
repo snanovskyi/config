@@ -4,11 +4,9 @@ Personal checklist for setting up a new Mac's dev environment
 ## General
 - Update OS X defaults
   ```sh
-  defaults write com.apple.Terminal ShowLineMarks -int 0;
   defaults write com.apple.dock autohide -bool true;
   defaults write com.apple.dock tilesize -int 36;
   defaults write com.apple.dock show-recents -bool false;
-  defaults write com.apple.dock mru-spaces -bool false;
   killall Dock;
   defaults write com.apple.finder CreateDesktop -bool false;
   killall Finder
@@ -45,10 +43,10 @@ Personal checklist for setting up a new Mac's dev environment
   ```
 - Install [Adobe XD CC](https://www.adobe.com/ua/products/xd.html) and other products via Creative Cloud
 
-## iTerm
+## iTerm2
 - Install [iTerm](https://www.iterm2.com)
   ```sh
-  brew cask install iterm
+  brew cask install iterm2
   ```
 - Use [oceanic-next-iterm](https://github.com/mhartington/oceanic-next-iterm)
 - Enable Hotkey Window and only restore Hotkey Window on startup

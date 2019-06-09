@@ -21,7 +21,6 @@
     titleBar: "custom"
   editor:
     fontFamily: "SF Mono"
-    fontSize: 14
     lineHeight: 1.6
     preferredLineLength: 100
     showIndentGuide: true

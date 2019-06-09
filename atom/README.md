@@ -24,4 +24,3 @@ Personal checklist for setting up Atom
 ## Configs
 - [Config](https://github.com/sun1x/config/blob/master/atom/config.cson)
 - [Keymap](https://github.com/sun1x/config/blob/master/atom/keymap.cson)
-- [Stylesheet](https://github.com/sun1x/config/blob/master/atom/styles.less)
