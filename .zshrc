@@ -16,10 +16,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Variables
-
-export LANG="en_US.UTF-8"
-
 # Aliases
 # Git aliases - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git#aliases
 # Node aliases - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#node

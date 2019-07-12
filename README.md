@@ -5,11 +5,13 @@ Personal checklist for setting up a new Mac's dev environment
 - Update OS X defaults
   ```sh
   defaults write com.apple.dock autohide -bool true;
-  defaults write com.apple.dock tilesize -int 36;
+  defaults write com.apple.dock mru-spaces -bool false;
   defaults write com.apple.dock show-recents -bool false;
+  defaults write com.apple.dock tilesize -int 36;
   killall Dock;
   defaults write com.apple.finder CreateDesktop -bool false;
-  killall Finder
+  killall Finder;
+  defaults write com.apple.Terminal ShowLineMarks -int 0
   ```
 - Install command line developer tools
   ```sh
@@ -24,7 +26,7 @@ Personal checklist for setting up a new Mac's dev environment
 - Install [nvm](https://github.com/creationix/nvm)
 - Install [yarn](https://yarnpkg.com)
   ```sh
-  brew install yarn --ignore-dependencies
+  brew install yarn
   ```
 - Make SF Mono available system wide
   ```sh
@@ -41,16 +43,7 @@ Personal checklist for setting up a new Mac's dev environment
   ```sh
   brew cask install telegram skype discord
   ```
-- Install [Adobe XD CC](https://www.adobe.com/ua/products/xd.html) and other products via Creative Cloud
-
-## iTerm2
-- Install [iTerm](https://www.iterm2.com)
-  ```sh
-  brew cask install iterm2
-  ```
-- Use [oceanic-next-iterm](https://github.com/mhartington/oceanic-next-iterm)
-- Enable Hotkey Window and only restore Hotkey Window on startup
-- Add iTerm to login items
+- Install [Adobe Creative Cloud](https://www.adobe.com/ua/creativecloud/desktop-app.html)
 
 ## Atom
 - Install [Atom](https://atom.io)
