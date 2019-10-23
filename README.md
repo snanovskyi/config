@@ -8,6 +8,8 @@ Personal checklist for setting up a new Mac's dev environment
   defaults write com.apple.dock mru-spaces -bool false;
   defaults write com.apple.dock show-recents -bool false;
   defaults write com.apple.dock tilesize -int 36;
+  defaults delete com.apple.dock persistent-apps;
+  defaults delete com.apple.dock persistent-others;
   killall Dock;
   defaults write com.apple.finder CreateDesktop -bool false;
   killall Finder;
@@ -18,10 +20,6 @@ Personal checklist for setting up a new Mac's dev environment
   xcode-select --install
   ```
 - Install [Homebrew](https://brew.sh)
-- Install [Zsh](http://www.zsh.org)
-  ```sh
-  brew install zsh zsh-completions
-  ```
 - Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - Install [nvm](https://github.com/creationix/nvm)
 - Install [yarn](https://yarnpkg.com)
@@ -30,7 +28,7 @@ Personal checklist for setting up a new Mac's dev environment
   ```
 - Make SF Mono available system wide
   ```sh
-  open /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/*
+  open /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/*
   ```
 
 ## Applications
@@ -44,6 +42,9 @@ Personal checklist for setting up a new Mac's dev environment
   brew cask install telegram skype discord
   ```
 - Install [Adobe Creative Cloud](https://www.adobe.com/ua/creativecloud/desktop-app.html)
+  ```sh
+  brew cask install adobe-creative-cloud
+  ```
 
 ## Atom
 - Install [Atom](https://atom.io)
